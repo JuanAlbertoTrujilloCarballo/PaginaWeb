@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaginaDeReserva</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/ediciones.js"></script>
+</head>
+
+<body>
+
+  <div id="NoMarginBottomAndBlack-P" class="jumbotron">
+    <h1 class="gold-p">Bienvenidos a la pagina de Reserva</h1>
+    <p class="gold-p">Aquí podrá introducir sus datos para efectuar su reserva, elegir que día desea venir, en que mesa quiere sentarse y decidir cuantos asientos quiere</p>
+  </div>
+  <nav id="green-P" class="navbar navbar-expand-md bg-null navbar-dark fixed-top">
+    <!-- Brand -->
+    <h2 class="navbar-brand, yellow-p">Pagina de Reserva</h2>
+    <div class="dropdown">
+      <button id="black-p_And_greenyellow-P_And_MarginLeft" class="btn btn-primary dropdown-toggle " type="button"
+        data-toggle="dropdown">Menu
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a class="black-p" href="MainPage.html">Pagina Principal</a></li>
+          <li><a class="black-p" href="ReservesPage.html">Hacer reserva</a></li>
+          <li><a class="black-p" href="RestaurantMenu.html">Menu Restaurante</a></li>
+          <li><a class="black-p" href="VIPclient.html">Página de registro VIP</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="col col-xl col-sm col-lg col-md"></div>
+  <div class="col col-xl col-sm col-lg col-md">
+    <div class="form-group">
+      <p class="EnNegrita">Introduzca sus datos</p>
+      <label for="text">Nombre:</label>
+      <input type="text" class="form-control" id="text">
+    </div>
+    <div class="form-group">
+      <label for="text">Apellidos:</label>
+      <input type="text" class="form-control" id="text2">
+    </div>
+    <div class="form-group">
+      <label for="text">DNI:</label>
+      <input type="text" class="form-control" id="text3">
+    </div>
+    <div class="form-group">
+      <label for="number">Tarjeta de Credito:</label>
+      <input type="number" class="form-control" id="number">
+    </div>
+  </div>
+  <div class="col col-xl col-sm col-lg col-md">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="radio">
+          <p class="EnNegrita">Elija el día que desea hacer la reserva</p>
+          <label><input type="radio" name="optradio" checked>Jueves</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio">Viernes</label>
+        </div>
+
+
+      </li>
+      <li class="list-group-item">
+        <object id="restaurante_sillas" data="img/restaurante_sillas.svg" type="image/svg+xml"></object>
+        
+
+
+
+        
+        <p class="EnNegrita">Elija en que mesa se quiere colocar</p>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+          <label id="MarginLeft2" class="custom-control-label" for="customRadio">Numero 1</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="customRadio2" name="example1" value="customEx">
+          <label id="MarginLeft3" class="custom-control-label" for="customRadio2">Numero 2</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="customRadio3" name="example1" value="customEx">
+          <label id="MarginLeft4" class="custom-control-label" for="customRadio3">Numero 3</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="customRadio4" name="example1" value="customEx">
+          <label id="MarginLeft5" class="custom-control-label" for="customRadio4">Numero 4</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="customRadio5" name="example1" value="customEx">
+          <label id="MarginLeft6" class="custom-control-label" for="customRadio5">Numero 5</label>
+
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="customRadio6" name="example1" value="customEx">
+          <label id="MarginLeft7" class="custom-control-label" for="customRadio6">Numero 6</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="customRadio7" name="example1" value="customEx">
+          <label id="MarginLeft8" class="custom-control-label" for="customRadio7">Numero 7</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="customRadio8" name="example1" value="customEx">
+          <label id="MarginLeft9" class="custom-control-label" for="customRadio8">Numero 8</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="customRadio9" name="example1" value="customEx">
+          <label id="MarginLeft10" class="custom-control-label" for="customRadio9">Numero 9</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="customRadio10" name="example1" value="customEx">
+          <label id="MarginLeft11" class="custom-control-label" for="customRadio10">Numero 10</label>
+        </div>
+      </li>
+    </ul>
+    <div class="form-group">
+      <label for="sel1">¿Cúantos asientos?</label>
+      <select class="form-control" id="sel1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+      <button id="MarginTop3" type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
